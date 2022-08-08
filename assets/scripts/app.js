@@ -29,10 +29,9 @@ function sendDonation(){
   let phone = document.getElementById('phone').value;
   let comment = document.getElementById('comment').innerText;
   Email.send({
-    Host : "smtp.elasticemail.com",
-    Port: 2525,
+    Host : "smtp.gmail.com",
     Username : "umarishaq26@gmail.com",
-    Password : "E11ADD3253E82F783B92BE36ABAD8AC09622",
+    Password : "relpyhcincmfrako",
     To : 'umarishaq26@2tocsolutions.com',
     From : fromEmail,
     Subject : "Donation From " + lname,
